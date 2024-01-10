@@ -36,18 +36,20 @@ Project X is a SaaS software designed to help marketplace enterprises handle the
         "password": "password",
         "c_password": "password"
     }
-3. Login User: {{baseUrl-local}}/v1/login
+### Login User: {{baseUrl-local}}/v1/login
      Method: POST
     Description: Log in an existing user.
     Request Body:
+     ```bash
       {
          "email":"test@gmail.com",
          "password": "password"
       }
-5. Add New Account: {{baseUrl-local}}/v1/add-account
+### Add New Account: {{baseUrl-local}}/v1/add-account
     Method: POST
     Description: Add a new account.
     Request Body:
+     ```bash
      {
         "fullName": "Test Account",
         "email": "test@gmail.com"
