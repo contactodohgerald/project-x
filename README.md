@@ -24,10 +24,11 @@ Project X is a SaaS software designed to help marketplace enterprises handle the
 
 ## API Endpoints Documentation  
 
-1. Register User: {{baseUrl-local}}/v1/register
+### Register User: {{baseUrl-local}}/v1/register
     Method: POST
     Description: Register a new user account.
     Request Body:
+     ```bash
      {
         "fullName": "Test Account",
         "email": "test@gmail.com",
